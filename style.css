@@ -1,0 +1,19 @@
+.rectangle div {
+    width:200px;
+    height:100px;
+    display: inline-block;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 500px) {
+    .rectangle div {
+        width:200px;
+        height:100px;
+        display: inline-block;
+        background-color: yellow;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,27 @@
+.rectangle  {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.rectangle div {
+    width: 100px;
+    text-align: center;
+    background-color: gray;
+    margin: 20px;
+    line-height: 75px;
+}
+
+/* @media (min-width: 900px) {
+    .rectangle  {
+        display: flex;
+        flex-direction: column;
+      } 
+      .rectangle div {
+        width: 100px;
+        text-align: center;
+        background-color: gray;
+        margin: 20px;
+        line-height: 75px;
+    }
+} */
